@@ -25,25 +25,7 @@ body {
 	background: #fd4;
 	text-align:center;
 }
-
-
-	.container .cols.col-1 {width: 8.33%;}
-	.container .cols.col-2 {width: 16.67%;}
-	.container .cols.col-3 {width: 25%;}
-	.container .cols.col-4 {width: 33.33%;}
-	.container .cols.col-5 {width: 41.67%;}
-	.container .cols.col-6 {width: 50%;}
-	.container .cols.col-7 {width: 58.33%;}
-	.container .cols.col-8 {width: 66.67%;}
-	.container .cols.col-9 {width: 75%;}
-	.container .cols.col-10 {width: 83.33%;}
-	.container .cols.col-11 {width: 91.67%;}
-	.container .cols.col-12 {width: 100%;}
-
-@media screen and (max-width: 600px) {/*на один пиксель больше*/
-	
-
-	h1 {	
+h1 {	
 		color:blue;	
 	}
 	.container .cols.col-1,
@@ -58,6 +40,26 @@ body {
 	.container .cols.col-10,
 	.container .cols.col-11,
 	.container .cols.col-12 { width: 100%; }
+
+	
+
+@media screen and (min-width: 321px) {/*на один пиксель больше*/
+	h1 {	
+		color:black;	
+	}
+.container .cols.col-1 {width: 8.33%;}
+	.container .cols.col-2 {width: 16.67%;}
+	.container .cols.col-3 {width: 25%;}
+	.container .cols.col-4 {width: 33.33%;}
+	.container .cols.col-5 {width: 41.67%;}
+	.container .cols.col-6 {width: 50%;}
+	.container .cols.col-7 {width: 58.33%;}
+	.container .cols.col-8 {width: 66.67%;}
+	.container .cols.col-9 {width: 75%;}
+	.container .cols.col-10 {width: 83.33%;}
+	.container .cols.col-11 {width: 91.67%;}
+	.container .cols.col-12 {width: 100%;}
+	
 
 }
 
