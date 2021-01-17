@@ -43,7 +43,7 @@ h1 {
 
 	
 
-@media screen and (min-width: 321px) {/*на один пиксель больше*/
+@media screen and (min-width: 600px) {/*на один пиксель больше*/
 	h1 {	
 		color:black;	
 	}
