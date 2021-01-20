@@ -25,7 +25,16 @@ body {
 	background: #fd4;
 	text-align:center;
 }
-
+.button {
+  padding: 6px 20px;
+  display: inline-block;
+  vertical-align: baseline;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 4px;
+  background-color: #288be6;
+  color: #ffffff;
+}
 	h1 {	
 		color:black;	
 	}
