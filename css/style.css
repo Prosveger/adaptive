@@ -10,6 +10,10 @@ body {
 	font:100%/1.5em Arial, Helvetica, sans-serif;
     color:#000;
 }
+.page-header {
+  margin: 0 0 160px;
+  padding: 32px 0 32px;
+}
 .page-header a {
   margin-left: 56px;
   color: #288be6;
