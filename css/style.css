@@ -10,7 +10,23 @@ body {
 	font:100%/1.5em Arial, Helvetica, sans-serif;
     color:#000;
 }
+.page-header a {
+  margin-left: 56px;
+  color: #288be6;
+  text-decoration: none;
+  background-repeat: no-repeat;
+  background-position: left;
+}
 
+.header-email {
+  padding-left: 30px;
+  background-image: url("img/icon-email-header.svg");
+}
+
+.header-phone {
+  padding-left: 25px;
+  background-image: url("img/icon-phone-header.svg");
+}
 .container{
     width: 90%;/*standart grid ширина*/
     margin: 0 auto;/*чтобы было по центру страницы*/   
